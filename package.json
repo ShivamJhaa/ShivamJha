@@ -1,0 +1,27 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "Making Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootsrap",
+    "bootsstrap-v5",
+    "sass",
+    "learn-bootsstrap\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[\u001b[C\u001b[C\u001b[D\u001b[3\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "learn-sass"
+  ],
+  "author": "Shivam Jha",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.41.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.3.4",
+    "bootstrap": "^5.1.1",
+    "postcss-cli": "^8.3.1"
+  }
+}

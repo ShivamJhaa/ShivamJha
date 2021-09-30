@@ -11321,6 +11321,11 @@ textarea.form-control-lg {
   -webkit-filter: grayscale(120);
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #151414;
+}
+
 .services {
   position: relative;
   padding: 1rem 0;

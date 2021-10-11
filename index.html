@@ -28,13 +28,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">projects</a>
+                <a class="nav-link" href="#services">projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">education</a>
+                <a class="nav-link" href="#testimonial">education</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link" href="#contact">contact</a>
               </li>
               
             </ul><a href="imgs/1.png" style="text-decoration: none;" download="imgs/1.png">  <button type="button" class="rounded-pill btn-rounded"> Download CV
@@ -57,23 +57,15 @@
                 <span class="display-2--description lh-base">
                   I'm an undergraduate student of IIIT Jabalpur class of 2020 and my passion is Computer Science. My interests include software design and development, artificial intelligence, machine learning, cyber security etc.
               </h1>
-              <button type="button" class="rounded-pill btn-rounded">Get in touch
+              <a href="#contact"><button type="button" class="rounded-pill btn-rounded">Get in touch
                 <span><i class="fas fa-arrow-right"></i></span>
-              </button>
+              </button></a>
+              
             </div>
             <!--Video-->
             <div class="col-md-6 intros text-end">
               <div class="video-box">
                 <img src="imgs/2.png" alt="img" class="img-fluid"> 
-                <a href="#">
-                  <span>
-                    <i class="fas fa-play-circle"></i>
-                  </span>
-                  <span class="border-animation border-animation--border-1">
-                  </span>
-                  <span class="border-animation border-animation--border-2">
-                  </span>
-                </a>
               </div>
             </div>
           </div>
@@ -134,9 +126,9 @@
                 <p class="lh-lg">
                   I have good knowlege of HTML, CSS, SASS, JS, BOOTSTRAP, ANGULAR and developed many projects using them. Currently I am learing Backend development using NodeJs, MongoDB and ExpressJs. 
                 </p>
-                <button type="button" class="border-primary rounded-pill btn-rounded">See Projects
+                <a href="https://github.com/ShivamJhaa/" target="blank"><button type="button" class="border-primary rounded-pill btn-rounded">See Projects
                   <span><i class="fas fa-arrow-right"></i></span>
-                </button>
+                </button></a>
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
@@ -155,9 +147,10 @@
               <p class="lh-lg">
                 I also love open source, right now I am contributing in Oppia and PublicLab and succesfully worked on more than 10 issue having many of them merged. Aiming for more than 500 contribution in this year.
               </p>
-              <button type="button" class="border-primary rounded-pill btn-rounded">Github Profile
+              <a href="https://github.com/ShivamJhaa?tab=repositories" target="blank"><button type="button" class="border-primary rounded-pill btn-rounded">Github Profile
                 <span><i class="fas fa-arrow-right"></i></span>
-              </button></div>
+              </button></a>
+              </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
               <div class="services__content"><div class="icon d-block fas fa-cloud-upload-alt"></div>
@@ -165,9 +158,12 @@
               <p class="lh-lg">
                 I am also doing Competitive programming, I am a 4 star coder on Codechef 5star on Hacerrank and Pupil at CodeForces. Currently learing Data Structures and Algorithms.
               </p>
-              <button type="button" class="border-primary rounded-pill btn-rounded">Learn More
-                <span><i class="fas fa-arrow-right"></i></span>
-              </button></div>
+              <a href="https://www.codechef.com/users/iwilldoitforu" target="blank">
+                <button type="button" class="border-primary rounded-pill btn-rounded">CodeChef Profile
+                  <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+              </a>
+              </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
               <div class="services__pic">
@@ -212,7 +208,7 @@
                  </div>
 
                  <div class="testimonial__picture">
-                      <img src="imgs/mvm.jpg" alt="" class="img-fluid rounded-circle">
+                      <img src="imgs/mvm.png" alt="" class="img-fluid rounded-circle">
                  </div>
 
                  <div class="testimonial__name">
@@ -238,7 +234,7 @@
                   </div>
  
                   <div class="testimonial__picture">
-                       <img src="" alt="" class="img-fluid rounded-circle">
+                       <img src="imgs/bal.png" alt="" class="img-fluid rounded-circle">
                   </div>
  
                   <div class="testimonial__name">
@@ -265,7 +261,7 @@
                   </div>
  
                   <div class="testimonial__picture">
-                       <img src="" alt="" class="img-fluid rounded-circle">
+                       <img src="imgs/iiit.png" alt="" class="img-fluid rounded-circle">
                   </div>
  
                   <div class="testimonial__name">
@@ -305,13 +301,14 @@
               <div class="cta-info w-100">
                 <div class="display-4 fw-bold mb-3"> Let's Connect</div>
                   <br><h3 class="display-5--brief">
+                    Wants to do some quality projects <br>
                     Then drop a Message!
                   </h3>
-                  <ul class="cta-info__list">
-                    <li>We will prepare the project</li>
-                    <li>We will discuss it together</li>
-                    <li>Let's start!</li>
-                  </ul>
+                  <div class="cta-info__list">
+                    <div><i class="far fa-star"></i>We will prepare the project</div><br>
+                    <div><i class="far fa-star"></i>We will discuss it together</div><br>
+                    <div><i class="far fa-star"></i>Let's start!</div>
+                  </div>
               </div>
             </div>
             <div class="col-12 col-lg-6 bg-white shadow p-3">
@@ -328,7 +325,7 @@
                     <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
                   </div>
                   <div class="col-lg-12 mb-3">
-                    <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+                    <textarea name="message" placeholder="message" id="message" rows="4" class="shadow form-control form-control-lg"></textarea>
                   </div>
                   <div class="text-center d-grid mt-1">
                     <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
@@ -416,11 +413,11 @@
                 Connect With Me on Social Media
               </div>
               <div class="col-lg-7 col-md-6">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/shivam.jha.98871174" target="blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/shivam-jha-bb44a4200/" target="blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ShivamJhaa/" target="blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/shivaam.jha/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/shivamjha828573" target="blank"><i class="fab fa-twitter"></i></a>
               </div>
             </div>
           </div>

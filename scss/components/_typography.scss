@@ -18,7 +18,7 @@
            margin-top: 1.2rem;
            text-transform: none;
             @include media-breakpoint-up(lg){
-                font-size: 1.4rem;
+                font-size: 1.2rem;
                 display: inline-block;
             }
       }
@@ -68,4 +68,10 @@
 .border-right{
     border-right: 0.1rem solid $gray-300;
     height: 100%;
+}
+
+//GRadient
+
+.gradient{
+    background: linear-gradient(to right,rgba($primary,0.95),rgba($secondary,0.95));
 }
